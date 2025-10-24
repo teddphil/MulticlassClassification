@@ -15,8 +15,8 @@ This project is a refactored, modular pipeline designed for end-to-end multi-cla
 | File | Role | Description |
 | :---- | :---- | :---- |
 | main.py | **Execution Engine** | Loads configuration and orchestrates the entire pipeline. |
-| ml\_toolkit.py | **Quantitative Toolkit** | Contains all reusable functions for ML (AUC, LOOCV) and plotting. This file is entirely data-agnostic. |
-| style\_config.py | **Styling** | Defines all visual parameters (fonts, colors, figure sizes) for consistent output. |
+| toolkit.py | **Quantitative Toolkit** | Contains all reusable functions for ML (AUC, LOOCV) and plotting. This file is entirely data-agnostic. |
+| style.py | **Styling** | Defines all visual parameters (fonts, colors, figure sizes) for consistent output. |
 
 ## **⚙️ Usage**
 
