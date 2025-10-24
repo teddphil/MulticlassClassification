@@ -16,7 +16,6 @@ This project is a refactored, modular pipeline designed for end-to-end multi-cla
 | :---- | :---- | :---- |
 | main.py | **Execution Engine** | Loads configuration and orchestrates the entire pipeline. |
 | ml\_toolkit.py | **Quantitative Toolkit** | Contains all reusable functions for ML (AUC, LOOCV) and plotting. This file is entirely data-agnostic. |
-| pet\_config.py | **Configuration** | Holds data path, feature lists, and defines all multi-class grouping strategies. |
 | style\_config.py | **Styling** | Defines all visual parameters (fonts, colors, figure sizes) for consistent output. |
 
 ## **⚙️ Usage**
