@@ -1,6 +1,6 @@
 # **Generalized Multi-Class Classification and Visualization Pipeline**
 
-This project is a refactored, modular pipeline designed for end-to-end multi-class classification and statistical visualization of tabular data. It separates application-specific configurations from generalized quantitative tools, making it highly reusable for various analytical tasks, such as those encountered in data science and quantitative research.
+This project is designed for end-to-end multi-class classification and statistical visualization of tabular data. It separates application-specific configurations from generalized quantitative tools, making it highly reusable for various analytical tasks, such as those encountered in data science and quantitative research.
 
 ## **🚀 Key Features**
 
