@@ -2,12 +2,19 @@
 
 This project is designed for end-to-end multi-class classification and statistical visualization of tabular data. It separates application-specific configurations from generalized quantitative tools, making it highly reusable for various analytical tasks, such as those encountered in data science and quantitative research.
 
-### Key Features**
+### Features
 
-* **Modular Architecture:** Clear separation between logic (ml\_toolkit.py), configuration (pet\_config.py, style\_config.py), and execution (main.py).  
-* **Multi-Class ML:** Performs per-feature and multi-feature classification using **LDA**, **Logistic Regression**, and other models, validated via **Leave-One-Out Cross-Validation (LOOCV)**.  
-* **Dimensionality Reduction:** Automated generation of **PCA** and **t-SNE** plots for high-dimensional feature spaces, helping to visualize class separation.  
-* **Statistical Visualization:** Generates publication-quality **Violin Plots** with Mann-Whitney U statistical annotations for pairwise group comparisons. 
+Modular Architecture
+: Clear separation between logic (ml\_toolkit.py), configuration (pet\_config.py, style\_config.py), and execution (main.py).  
+
+Multi-Class ML
+: Performs per-feature and multi-feature classification using **LDA**, **Logistic Regression**, and other models, validated via Leave-One-Out Cross-Validation (LOOCV).
+
+Dimensionality Reduction
+: Automated generation of **PCA** and **t-SNE** plots for high-dimensional feature spaces, helping to visualize class separation.  
+
+Statistical Visualization
+: Generates publication-quality Violin Plots with Mann-Whitney _U_ statistical annotations for pairwise group comparisons. 
 
 ### Structure
 
